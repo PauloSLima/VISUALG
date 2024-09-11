@@ -1,18 +1,20 @@
-Algoritmo "Operadora"
+Algoritmo "Glicose"
 
 Var
 
-   minutos : inteiro
-   valorpago : real
+   glicose  : real
+   status : caractere
 
 Inicio
 
-      escreva("digite a quantidade de minutos ultilizados Mês:  ")
-      leia(minutos)
+      escreva("digite o valor da glicose medida:  ")
+      leia(glicose)
       
-      valorpago <- 50
-      se minutos > 100 entao
-            valorpago <- valorpago + 2 * (minutos - 100)
+      se glicose < 90 entao
+         escreval("normal")
+         senao
+
+
      fimse
 
      escreval("Valor a pagar: R$ ", valorpago:4:2)
