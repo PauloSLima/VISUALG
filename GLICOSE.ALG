@@ -1,6 +1,6 @@
 Algoritmo "Glicose"
-// Disciplina   : [Linguagem e Lógica de Programação] 
-// Professor   : Antonio Carlos Nicolodi 
+// Disciplina   : [Linguagem e L?gica de Programa??o]
+// Professor   : Antonio Carlos Nicolodi
 
 
 
@@ -12,21 +12,21 @@ Inicio
 
      Escreva("Digite o valor da Glicose:  ")
      leia(glicose)
-     
-     
+
+
      se glicose  <= 100.0 entao
-        escreval("Clasificação: normal")
+        escreval("Clasifica??o: normal")
      senao
           se (glicose > 100.0) e  (glicose < 140.0) entao
-             escreval("Clasificação: Alta")
+             escreval("Clasifica??o: Alta")
           senao
-               escreval("Classificação: Diabete")
+               escreval("Classifica??o: Diabete")
           fimse
       fimse
 
 
 
-     
+
 
 
 Fimalgoritmo
